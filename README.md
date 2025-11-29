@@ -7,7 +7,7 @@ This Arduino-powered line follower robot is designed to:
 
 - Stop safely when the line is lost or not detected by any of the sensors.
 
-# 🚗 How It Works
+# How It Works
 The robot continuously reads input from 6 IR sensors arranged from left to right. Based on which sensors detect the black line:
 
 - If the middle sensors detect the line → it moves **forward**.
@@ -18,7 +18,7 @@ The robot continuously reads input from 6 IR sensors arranged from left to right
 
 - If no sensors detect the line → it **stops** to prevent going off-track.
 
-# 🔧 Hardware Components
+# Hardware Components
 - Arduino Uno
 
 - L298N Motor Driver
